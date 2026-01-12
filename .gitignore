@@ -1,0 +1,24 @@
+# --- Frontend (Node) Ignores ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+# --- Backend (Java) Ignores ---
+backend/target/
+backend/.mvn/wrapper/
+backend/mvnw
+backend/mvnw.cmd
+backend/*.class
+backend/*.log
+backend/.idea/
+backend/*.iml
+backend/.vscode/
+
+# --- General Ignores ---
+.DS_Store
+.vscode/
+**/.idea/
+**/logs/
+**/*.log
